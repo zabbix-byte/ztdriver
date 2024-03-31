@@ -142,15 +142,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="imports.hpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ztdriver_client\imports.hpp" />
+    <ClCompile Include="tests\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="process_utils.hpp" />
-    <ClInclude Include="tests__run.hpp" />
-    <ClInclude Include="tests__offsets.hpp" />
-    <ClInclude Include="zdriver.hpp" />
-    <ClInclude Include="zdriver_client.hpp" />
+    <ClInclude Include="ztdriver_client\process_utils.hpp" />
+    <ClInclude Include="tests\tests__run.hpp" />
+    <ClInclude Include="tests\tests__offsets.hpp" />
+    <ClInclude Include="ztdriver_client\zdriver.hpp" />
+    <ClInclude Include="ztdriver_client\zdriver_client.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,27 +18,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="tests\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="imports.hpp">
+    <ClCompile Include="ztdriver_client\imports.hpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="process_utils.hpp">
+    <ClInclude Include="ztdriver_client\process_utils.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zdriver.hpp">
+    <ClInclude Include="ztdriver_client\zdriver.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="zdriver_client.hpp">
+    <ClInclude Include="ztdriver_client\zdriver_client.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="tests__run.hpp">
+    <ClInclude Include="tests\tests__run.hpp">
       <Filter>Header Files\tests</Filter>
     </ClInclude>
-    <ClInclude Include="tests__offsets.hpp">
+    <ClInclude Include="tests\tests__offsets.hpp">
       <Filter>Header Files\tests</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,5 @@
 #pragma once
-#include "imports.hpp"
+#include "../ztdriver_client/imports.hpp"
 
 
 namespace offsets
