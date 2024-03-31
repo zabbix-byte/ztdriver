@@ -14,7 +14,7 @@ Docs: https://learn.microsoft.com/en-us/windows-hardware/drivers/download-the-wd
 - https://github.com/TheCruZ/kdmapper
 
 #### **Client usage 💻**
-To use it copy this folder in you project https://github.com/zabbix-byte/ztdriver/.
+To use it copy this folder in you project [lib](https://github.com/zabbix-byte/ztdriver/tree/master/ztdriver_client/ztdriver_client) .
 
 ##### **Attach to process and Detach from process**
 ```c++
