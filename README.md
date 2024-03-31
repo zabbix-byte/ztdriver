@@ -3,6 +3,7 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fzabbix-byte%2Fztdriver%2F&countColor=%23263759)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=windows&logoColor=white)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/C++20-blue?style=for-the-badge&logo=windows&logoColor=white)](https://www.python.org/downloads/)
+[![Python Version](https://img.shields.io/badge/x64-blue?style=for-the-badge&logo=windows&logoColor=white)](https://www.python.org/downloads/)
 [![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white)](https://github.com/sponsors/zabbix-byte)
 
  Kernel driver with associated client functionality
