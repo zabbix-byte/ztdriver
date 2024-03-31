@@ -1,1 +1,91 @@
-# driver
+# **ztdriver** (Kernel)
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fzabbix-byte%2Fztdriver%2F&countColor=%23263759)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=windows&logoColor=white)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/C++20-blue?style=for-the-badge&logo=windows&logoColor=white)](https://www.python.org/downloads/)
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white)](https://github.com/sponsors/zabbix-byte)
+
+### 📚 **Documentation**
+### **Requirements** (Driver)
+- https://github.com/TheCruZ/kdmapper
+
+### **Client usage**
+Just copy the `ztdriver_client` content in you project, don't copy main.cpp and test__* files.
+
+#### **Attach to process and Detach from process**
+```c++
+#include "zdriver_client.hpp"
+
+int main()
+{
+	if (!zdriver_client::attach_to_process(L"ac_client.exe"))
+	{
+		zdriver_client::detach_from_process();
+		return 1;
+	}
+    zdriver_client::detach_from_process()
+    return 0;
+}
+```
+
+#### **Get module**
+
+```c++
+#include "zdriver_client.hpp"
+
+int main()
+{
+	// ... first you need to Attach to process
+    const uintptr_t client_module_base = zdriver_client::get_module_base(L"ac_client.exe");
+    if (client_module_base == 0)
+    {
+        zdriver_client::detach_from_process()
+        return 1;
+    }
+    zdriver_client::detach_from_process()
+    return 0;
+}
+```
+
+
+#### **Read Memory**
+
+```c++
+#include "zdriver_client.hpp"
+
+int main()
+{
+	// ... first you need to Attach to process
+    const uint32_t value = zdriver_client::read<uint32_t>(addr);
+    zdriver_client::detach_from_process()
+    return 0;
+}
+```
+#### **Write Memory**
+
+```c++
+#include "zdriver_client.hpp"
+
+int main()
+{
+	// ... first you need to Attach to process
+    uint32_t value = 100;
+    zdriver_client::write<uint32_t>(addr, value);
+    zdriver_client::detach_from_process()
+    return 0;
+}
+```
+
+#### **Find memory address**
+
+```c++
+#include "zdriver_client.hpp"
+
+int main()
+{
+	// ... first you need to Attach to process
+    uint32_t addrs = zdriver_client::find_maaddy<uint32_t>(your_static, {0x0, 0x300, ...});
+    zdriver_client::detach_from_process()
+    return 0;
+}
+```

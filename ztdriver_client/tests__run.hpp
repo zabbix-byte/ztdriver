@@ -2,6 +2,15 @@
 #include "tests__offsets.hpp"
 #include "zdriver_client.hpp"
 
+// [TODO]: This need to be validated or developed
+/*
+	zdriver_client::attach_to_process() - validated
+	zdriver_client::detach_from_process() - validated
+	zdriver_client::get_module_base() -  validated
+	zdriver_client::read<YOUR_D_TYPE>() - validated
+	zdriver_client::write<YOUR_D_TYPE>() - validated
+	zdriver_client::find_maaddy() - validated
+*/
 
 bool tests_reading_writing(const uintptr_t client_module_base)
 {
