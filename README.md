@@ -6,7 +6,7 @@
 [![Python Version](https://img.shields.io/badge/x64-blue?style=for-the-badge&logo=windows&logoColor=white)](https://www.python.org/downloads/)
 [![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white)](https://github.com/sponsors/zabbix-byte)
 
- 💾 Kernel driver with associated client functionality
+ 💾 Kernel driver with associated user mode functionality
 
 ### **📚 Documentation**
 #### **Kernel Driver 💾**
