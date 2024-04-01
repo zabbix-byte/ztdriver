@@ -23,11 +23,11 @@ To use it copy this folder in you project [lib](https://github.com/zabbix-byte/z
 
 int main()
 {
-	if (!zdriver_client::attach_to_process(L"ac_client.exe"))
-	{
-		zdriver_client::detach_from_process();
-		return 1;
-	}
+    if (!zdriver_client::attach_to_process(L"ac_client.exe"))
+    {
+        zdriver_client::detach_from_process();
+        return 1;
+    }
     zdriver_client::detach_from_process()
     return 0;
 }
