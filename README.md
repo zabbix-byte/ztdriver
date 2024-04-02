@@ -94,3 +94,16 @@ int main()
     return 0;
 }
 ```
+
+## Contributing 🤝
+We welcome contributions from the community. If you'd like to contribute to mytool, please follow these guidelines:
+
+- Fork the repository.
+- Make your changes.
+- Submit a pull request.
+
+## 💌 Contact & [Sponsor](https://github.com/sponsors/zabbix-byte)
+
+If you have any questions, suggestions, or feedback, please don't hesitate to reach out to us at [zabbix@ztrunk.space](mailto:zabbix@ztrunk.space).
+
+We hope PyPulse accelerates your desktop application development and simplifies the integration of web content into your Python projects. Happy coding! 😎🚀
